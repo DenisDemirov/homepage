@@ -175,6 +175,19 @@
     text-align: left;
     margin-bottom: 20px;
   }
+
+  .experiences__company-header-name:hover::after{
+    content: attr(data-title);
+    position: absolute;
+    left: 3%;
+    z-index: 1;
+    color: #f5f5f5;
+    white-space: pre-line;
+    background: rgba(236, 75, 75, 0.9);
+    font-size: 10pt;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
   
   .experiences__company-header-durability {
     color: var(--durability-text-color);
